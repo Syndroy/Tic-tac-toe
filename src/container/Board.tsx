@@ -56,7 +56,7 @@ function Board() {
       {winner ? (
         <p className="text-xl font-bold mb-4">Winner is: {winner}! 🎉</p>
       ) : (
-        <p className="text-xl mb-4">Hey {currentPlayer}, it's your turn</p>
+        <p className="text-xl mb-4">Hey {currentPlayer}, it&apos;s your turn</p>
       )}
 
       <div className="grid grid-cols-3 gap-2 p-2 max-w-[300px] mx-auto">
