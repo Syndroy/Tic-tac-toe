@@ -1,9 +1,18 @@
 import React from 'react'
-
-function Square() {
-  return (
-    <div className='border-1'>Square</div>
-  )
+interface SquareProps {
+  value: string | null;
+  onClick: () => void;
 }
 
-export default Square
+function Square({ value, onClick }: SquareProps) {
+  return (
+    <button
+      className="w-20 h-20 border-2 border-gray-400 text-4xl font-bold flex items-center justify-center hover:bg-gray-100"
+      onClick={onClick}
+    >
+      {value}
+    </button>
+  );
+}
+
+export default Square;
