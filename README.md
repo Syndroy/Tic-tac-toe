@@ -36,9 +36,9 @@ Perfect for learning game logic and React state management.
 
 ## 🧑‍💻 Author
 
-**Your Name**  
+**Syndroy Araujo**  
 📧 [araujosyndroy@gmail.com](mailto:araujosyndroy@gmail.com)  
-🐙 [Syndroy](https://github.com/Syndroy)
+🐙 [Github](https://github.com/Syndroy)
 
 ---
 
